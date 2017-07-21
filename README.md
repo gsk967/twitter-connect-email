@@ -2,10 +2,12 @@
 We can get the email from twitter authentication for Ionic2 framework
 
 # instalation
-1 ) you have to uninstall previous "twitter-connect-plugin"
-	$ npm uninstall @ionic-native/twitter-connect
+1 ) you have to uninstall previous "twitter-connect"
+ $ npm uninstall @ionic-native/twitter-connect
 
 2) For these you have to download the "cordova-twitter-connect-email" , follow the how to install these new cordova plugin to the your ionic2 project 
+
+Link: https://github.com/gsk967/cordova-twitter-connect-email-ionic2.git
 
 3) just replace this twitter-connect at "node_modules/$ionic-native/"
 
