@@ -11,11 +11,12 @@ Link: https://github.com/gsk967/cordova-twitter-connect-email-ionic2.git
 
 3) just replace this twitter-connect at "node_modules/$ionic-native/"
 
-#usage
+# usage
 Just follow the "twitter-connect" plugin intructions same as here also
 
 Use the this function to get the email from twitter authentication in ionic2.
 
+# How to use ?
 
 this.twitter.showUserEmail().then(
 			function (res) {
@@ -25,4 +26,4 @@ this.twitter.showUserEmail().then(
 			function (error) {
 				alert(JSON.stringify(error));
 			}
-		)
+	)
